@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	text-align: center;
+	background: #C6DC9F;
+}
+body {
+	background-color:#A1C760;
+}
+nav ul{
+	list-style-type:none;
+}
+nav a{
+	text-decoration:none;
+	display: block;
+    text-align: center;
+    color: #263695;
+    font-weight: bolder;
+    border: 7px outset lightgrey;
+    padding: 7px;
+	background:#B0D584;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:13pt;
+}
+nav {
+	float:left;
+	width:220px;
+	margin-right:50px;
+}
+#button:active {
+	transform: translateY(4px);
+}
+#button2:active {
+	transform: translateY(4px);
+}
+#button3:active {
+	transform: translateY(4px);
+}
+#button4:active {
+	transform: translateY(4px);
+}
+#wrapper {
+	width: 85%;
+   margin-right: auto;
+   margin-left: auto;
+   background-color:white;
+   box-shadow: 10px 10px 10px 10px #666666;
+}
+main {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:13pt;
+}
+main a{
+	color:#006EB5;
+	text-decoration:none;
+}
+#book {
+	overflow:auto;
+	padding-right:30px;
+	background-color:antiquewhite;
+}
+.author {
+	float:right;
+	padding-right:30px;
+	padding-top:20px;
+	padding-left:40px;
+}
+footer {
+	clear: both;
+	text-align:center;
+	background:#C4DA9E;
+	border: 5px outset lightgrey;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+footer a{
+	text-decoration:none;
+	font-weight:bold;
+}

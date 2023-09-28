@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	text-align: center;
+	background: #C6DC9F;
+}
+body {
+	background-color:#A1C760;
+}
+nav ul{
+	list-style-type:none;
+}
+nav a{
+	text-decoration:none;
+	display: block;
+    text-align: center;
+    color: #263695;
+    font-weight: bolder;
+    border: 7px outset lightgrey;
+    padding: 7px;
+	background:#B0D584;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:13pt;
+}
+nav {
+	float:left;
+	width: 220px;
+	margin-right: 50px;
+	padding-top:30px;
+}
+#button:active {
+	transform: translateY(4px);
+}
+#button2:active {
+	transform: translateY(4px);
+}
+#button3:active {
+	transform: translateY(4px);
+}
+#button4:active {
+	transform: translateY(4px);
+}
+main ul{
+	list-style-type:none;
+}
+main li{
+	text-decoration:none;
+}
+#main {
+	overflow:auto;
+	font-size:13pt;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-bottom:20px;
+}
+h2 {
+	color:#0071B9;
+	font-size:25pt;
+}
+#container {
+	width: 85%;
+   margin-right: auto;
+   margin-left: auto;
+   background-color:white;
+   box-shadow: 10px 10px 10px 10px #666666;
+}
+ul h4 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 14pt;
+
+}
+ul p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:13pt;
+}
+#commerce {
+	float:left;
+}
+.p1 {
+	overflow:auto;
+	padding:11px;
+	background-color:lightgoldenrodyellow;
+}
+#community {
+	float:right;
+	padding-right:30px;
+	padding-top:6px;
+	margin-top:10px;
+}
+.p2 {
+	overflow:auto;
+	padding:10px;
+	background-color:antiquewhite;
+}
+#energy {
+	float:left;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.p3 {
+	overflow:auto;
+	padding:20px;
+	background-color:lightgoldenrodyellow;
+}
+#environment {
+	float:right;
+	padding-right:30px;
+	padding-bottom:20px;
+	padding-top:15px;
+}
+.p4 {
+	overflow:auto;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:10px;
+	background-color:antiquewhite;
+}
+footer {
+	clear: both;
+	text-align:center;
+	background:#C4DA9E;
+	border: 5px outset lightgrey;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+footer a{
+	text-decoration: none;
+	font-weight:bold;
+}

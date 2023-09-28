@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+	padding:5%;
+	background-image:url("aesthetic.jpg");
+
+}
+nav {
+	background-color: #ccab82;
+	padding:20px;
+}
+nav a:hover{
+	background-color: floralwhite;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;
+}
+nav li {
+	padding:10px;
+	display:inline;
+}
+ul li {
+	list-style-type:none;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+ul a:hover {
+	color:#a67c5b;
+}
+ul a{
+	text-decoration:none;
+	color: black;
+	font-size: 15pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 15px;
+}
+#wrapper {
+	width:70%;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+	background:white;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(to top, #decfac, #f5f5dc, antiquewhite);
+  font-size: 12px;
+}
+
+body, button, input {
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: white;
+	border-radius: 15px;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: saddlebrown;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 12px;
+  color: #888;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: saddlebrown;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: black;
+}
+footer {
+	clear:left;
+	text-align:center;
+	background-color:#ccab82;
+	padding:1px;
+}
+footer p {
+	font-size: 13pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight:bold;
+	color: black;
+	
+}
+.name {
+	text-decoration: none;
+	color: saddlebrown;
+}
+.name:hover {
+	color:#fffff1;
+}
